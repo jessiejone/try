@@ -1,5 +1,6 @@
+#！/bin/bash
 days=(Monday Tuesday Wednesday Thursday Friday Saturday Sunday)
-for ((i=0; i < ${#days[@]}; i++))
+for ((i=0; i<${#days[@]}; i++))
 do 
  let "totalCount+=1" 
 done 
