@@ -1,0 +1,13 @@
+total 18
+drwxr-xr-x 1 cnxinhui 1049089    0 Apr 15 14:05 .
+drwxr-xr-x 1 cnxinhui 1049089    0 Apr 15 14:03 ..
+drwxr-xr-x 1 cnxinhui 1049089    0 Apr 15 14:03 .git
+-rw-r--r-- 1 cnxinhui 1049089  345 Apr 15 14:02 handleEach
+-rw-r--r-- 1 cnxinhui 1049089    0 Apr 15 14:14 log.190419
+-rwxr-xr-x 1 cnxinhui 1049089 2969 Aug 26  2018 Loop.sh
+-rw-r--r-- 1 cnxinhui 1049089   76 Apr 15 14:02 main.cpp
+-rw-r--r-- 1 cnxinhui 1049089   57 Apr 15 14:02 README.md
+-rw-r--r-- 1 cnxinhui 1049089   77 Aug 26  2018 states
+-rw-r--r-- 1 cnxinhui 1049089   30 Apr 15 14:05 t15test
+-rw-r--r-- 1 cnxinhui 1049089  417 Apr 15 14:02 testshell
+Mon, Apr 15, 2019  2:14:01 PM

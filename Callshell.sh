@@ -12,7 +12,7 @@ do
  let "daysCount=$i+1"
  echo "This is $daysCount of $totalCount" 
  
- bash handleEach.sh ${days[i]}
+ bash handleEach ${days[i]}
  let "errors=$?"
  let "totalErrors+=errors"
  echo error count is : $errors
