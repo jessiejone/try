@@ -24,3 +24,7 @@ cat test_sort.txt |sort -g
 cat test_sort.txt |sort -n
 #sort as the third field
 cat test_sort.txt | sort -t "|" -k 3
+#文本块排序 先把一块放在一行里头 gsub函数是全局替换函数 相当于s/x/y/z ; RS=记录分隔符； ORS=输出记录分隔符
+cat my-friend | awk -v RS="" '{ gsub("\n", "%z");print }' | sort -f | awk -v ORS="\n\n" '{ gsub("%z","\n"); print }' | grep -v '# SORTKEY'
+#wc -c(字符数) -l (行数）-w（单词数）
+wc linuxpasswd 
